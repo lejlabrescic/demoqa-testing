@@ -1,3 +1,6 @@
+![Logo](https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Selenium_Logo.png/220px-Selenium_Logo.png) 
+![Logo](https://avatars.githubusercontent.com/u/874086?s=200&v=4)
+
 # E-commerce application testing
 For the purpose of the technical part of the job interview, [the e-commerce application](https://shop.demoqa.com/) is being tested. Testing framework that has been used is Selenium, combined with the JUnit. Below you can see steps to run the program, as well as the tested features. 
 ## About Selenium and JUnit
@@ -60,8 +63,3 @@ trainings in Europe.
 
 [![linkedin](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/lejlabrescic/)
 [![Github](https://camo.githubusercontent.com/b2d1ae072c968dbeaf2232f0e1071ae5a7b218b11caec1ae5c69c10ef370a3cc/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f6769746875622d2532333234323932652e7376673f267374796c653d666f722d7468652d6261646765266c6f676f3d676974687562266c6f676f436f6c6f723d7768697465)](https://github.com/lejlabrescic)
-
-
-
-![Logo](https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Selenium_Logo.png/220px-Selenium_Logo.png) 
-![Logo](https://avatars.githubusercontent.com/u/874086?s=200&v=4)
