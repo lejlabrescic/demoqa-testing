@@ -1,5 +1,5 @@
-![Logo](https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Selenium_Logo.png/220px-Selenium_Logo.png) 
-![Logo](https://avatars.githubusercontent.com/u/874086?s=200&v=4)
+![Logo](https://media.tenor.com/cI3eAVLXj48AAAAC/hello-world.gif) 
+
 
 # E-commerce application testing
 For the purpose of the technical part of the job interview, [the e-commerce application](https://shop.demoqa.com/) is being tested. Testing framework that has been used is Selenium, combined with the JUnit. Below you can see steps to run the program, as well as the tested features. 
