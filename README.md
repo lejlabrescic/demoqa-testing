@@ -2,8 +2,9 @@
   <img src="https://media.tenor.com/cI3eAVLXj48AAAAC/hello-world.gif" />
 
 
+  
 
-# E-commerce application testing
+# 🔗 E-commerce application testing
 For the purpose of the technical part of the job interview, [the e-commerce application](https://shop.demoqa.com/) is being tested. Testing framework that has been used is Selenium, combined with the JUnit. Below you can see steps to run the program, as well as the tested features. 
 ## About Selenium and JUnit
 Selenium is an open-source framework for automating web browsers. It allows users to write scripts in multiple programming languages to interact with web browsers, simulating user actions such as clicking buttons and filling out forms. JUnit is a widely used testing framework for Java applications. It allows developers to write repeatable, automated tests for their code. Together, Selenium and JUnit can be used to automate the testing of web applications, by using Selenium to simulate user actions on the front-end, and JUnit to write tests for the back-end.
