@@ -1,4 +1,4 @@
-![Logo](https://media.tenor.com/cI3eAVLXj48AAAAC/hello-world.gif) 
+<center> ![Logo](https://media.tenor.com/cI3eAVLXj48AAAAC/hello-world.gif) </center>
 
 
 # E-commerce application testing
