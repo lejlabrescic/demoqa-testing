@@ -56,6 +56,7 @@ During the testing and observation of the application, the certain bugs are foun
 
 ## 🚀 About Me
 - Lejla Breščić
+
 🔗 I am an IT student with backgrounds in journalism, graphic and web design. I
 enjoy watching stars and constellations using my telescope. I find joy in
 exploring technology as well as participating in hackathons and
