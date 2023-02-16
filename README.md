@@ -27,6 +27,9 @@ Test number | Test name |Test expectations  | Test status | Test type |
 9 | testSorting | User should be able to sort the products according to user's wishes. | PASS | Positive
 10 | testCompareProducts | User should be able to compare products. | PASS | Positive
 11 | testLeaveBlogComment | User should be able to leave comment about blog. | PASS |Positive
+12 | TestPaypal | Paypal link does not lead to Paypal page. | PASS | Negative
+13 |TestCartMalfunction | All products are added to the cart. | PASS | Negative
+14 | TestAddBillingAddress | Billing address added | PASS | Positive
 
 ### Bug reports
 During the testing and observation of the application, the certain bugs are found on the features. The detailed explanation of them can be found in the [project documentation](https://drive.google.com/drive/folders/1MDl8HWSn33nP5kmHbFEPQ8tgAe8rVJcH?usp=sharing). 
