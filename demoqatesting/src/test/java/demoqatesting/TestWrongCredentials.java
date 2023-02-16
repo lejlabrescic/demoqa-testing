@@ -1,0 +1,46 @@
+package demoqatesting;
+
+import static org.junit.jupiter.api.Assertions.*;
+
+import java.time.Duration;
+
+import org.junit.jupiter.api.AfterAll;
+import org.junit.jupiter.api.BeforeAll;
+import org.junit.jupiter.api.Test;
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+
+class TestWrongCredentials {
+
+
+	private static WebDriver webDriver;
+    private static String baseUrl;
+
+    @BeforeAll
+    static void setUpBeforeClass() throws Exception {
+        System.setProperty("webdriver.chrome.driver", "C:\\Users\\DT User\\Desktop\\chromedriver_wnew\\chromedriver.exe");
+        webDriver = new ChromeDriver();
+        baseUrl = "https://shop.demoqa.com/";
+        webDriver.manage().timeouts().implicitlyWait(Duration.ofSeconds(6));
+    }
+
+    @AfterAll
+    static void tearDownAfterClass() throws Exception {
+        webDriver.quit();
+    }
+
+    @Test
+    void testWrongCredentials() throws InterruptedException {
+    	webDriver.get(baseUrl);
+    	webDriver.manage().window().maximize();
+    	webDriver.findElement(By.xpath("/html/body/p/a")).click();
+    	webDriver.findElement(By.xpath("//*[@id=\"noo-site\"]/header/div[1]/div/ul[2]/li[2]/a")).click();
+    	webDriver.findElement(By.xpath("//*[@id=\"username\"]")).sendKeys("janeaustin");
+    	webDriver.findElement(By.xpath("//*[@id=\"password\"]")).sendKeys("wrongpasswordfirstentry");
+    	webDriver.findElement(By.xpath("//*[@id=\"customer_login\"]/div[1]/form/p[3]/button")).click();
+    	Thread.sleep(3000);
+    	String error = webDriver.findElement(By.xpath("//*[@id=\"post-8\"]/div/div/div[1]/ul/li")).getText(); 
+    	assertTrue(error.contains("ERROR: The username or password you entered is incorrect. Lost your password?"));
+
+}}
