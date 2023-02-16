@@ -41,6 +41,7 @@ During the testing and observation of the application, the certain bugs are foun
 - Picture not found 
 - Text overloading the picture
 - PayPal, American Express, Amazon & Visa links do not work
+- Adding to cart malfunction
 
 
 
